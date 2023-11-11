@@ -1,6 +1,20 @@
 on:
   workflow_dispatch:
     inputs:
+      blue:
+        description: 'Enables blue deployment'
+        required: true
+        type: choice
+        options:
+          - true
+          - false
+      green:
+        description: 'Enables green deployment'
+        required: true
+        type: choice
+        options:
+          - true
+          - false
       trafficDistribution:
         description: 'Traffic distribution of blue/green deployment'
         required: true
