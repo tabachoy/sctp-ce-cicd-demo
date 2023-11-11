@@ -31,7 +31,7 @@ variable "enable_green_env" {
 variable "traffic_distribution" {
   description = "Levels of traffic distribution"
   type        = string
-  default     = "blue"          # to remove
+  default     = "blue" # to remove
 }
 
 locals {
