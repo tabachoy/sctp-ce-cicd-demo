@@ -31,7 +31,6 @@ variable "enable_blue_env" {
 # variable "traffic_distribution" {
 #   description = "Levels of traffic distribution"
 #   type        = string
-#   default     = "blue" # to remove
 # }
 
 # locals {
