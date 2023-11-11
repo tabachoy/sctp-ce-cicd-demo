@@ -1,19 +1,19 @@
 variable "name" {
   description = "Unique identifier for the user"
   type        = string
-  default     = "slim"          # to replace
+  default     = "slim" # to replace
 }
 
 variable "region" {
   description = "AWS Region"
   type        = string
-  default     = "us-east-1"          # to replace
+  default     = "us-east-1" # to replace
 }
 
 variable "vpc_id" {
   description = "Virtural Private Cloud ID"
   type        = string
-  default     = "vpc-02c3cea2893bac90f"          # to replace
+  default     = "vpc-02c3cea2893bac90f" # to replace
 }
 
 variable "enable_blue_env" {
