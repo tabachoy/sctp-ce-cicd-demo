@@ -1,7 +1,11 @@
 # sctp-ce-cicd-demo-
 
 1. Understand the deployment file
-1. Fix the commented values
+2. Fix the commented values
+3. Get CI workflow to run. Fix if unsuccessful.
+4. Get Simple CD workflow to run
+5. Uncomment all green deployment codeblocks
+6. Get Blue-Green CD workflow to run
 
 ## Test Command
 ```bash
