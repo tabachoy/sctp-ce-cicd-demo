@@ -5,10 +5,12 @@
 2. Fix the commented values
 3. Get CI workflow to run. Fix if unsuccessful.
 
+> Always check the plan before deployment
+
 ## Simple Deployment
 1. Get Simple CD workflow to run
 
-## Blue-Green 
+## Blue-Green
 1. Uncomment all green deployment codeblocks
 2. Get Blue-Green CD workflow to run
 
